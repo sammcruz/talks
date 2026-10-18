@@ -39,7 +39,9 @@
       "role": "Speaker",
       "title": "Deploy Your Microsoft Fabric Architecture with CI/CD in 10 Minutes",
       "language": "en",
-      "links": {}
+      "links": {
+        "slides": "slides/2025-08-28-empower-conference-zurich-fabric-cicd.pdf"
+      }
     },
     {
       "id": "2025-06-14-summer-fest-barcelona",
