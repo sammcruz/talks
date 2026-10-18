@@ -23,7 +23,10 @@
       "role": "Speaker",
       "title": "Generative AI Solution Development with Databricks",
       "language": "en",
-      "links": {}
+      "links": {
+        "event": "https://www.meetup.com/isolutions-tech-meetup/events/306895509/"
+      },
+      "venue": "isolutions Barcelona"
     },
     {
       "id": "2025-05-08-global-azure-barcelona",
@@ -47,31 +50,62 @@
       "role": "Speaker",
       "title": "AI-Powered Multilingual Reports with Azure AI and Semantic Link Labs",
       "language": "en",
-      "links": { "slides": "slides/2025-06-14-summer-fest-barcelona.pdf" }
+      "links": {
+        "slides": "slides/2025-06-14-summer-fest-barcelona.pdf"
+      }
     },
     {
       "id": "2025-07-10-menu-degustacion-de-fabric-barcelona",
       "date": "2025-07-10",
-      "event": "Menú degustación de Fabric",
+      "event": "Menú degustación de Fabric (Power BI & Fabric Barcelona, powered by isolutions)",
       "city": "Barcelona",
       "country": "Spain",
       "mode": "in-person",
       "role": "Speaker",
       "title": "Gobernanza de Datos en Fabric: Lineage de Datos con Purview",
       "language": "es",
-      "links": {}
+      "links": {
+        "event": "https://sessionize.com/power-bi-fabric-barcelona-powered-by-isolutions"
+      },
+      "venue": "isolutions Barcelona"
     },
     {
-      "id": "2025-08-26-empower-conference-zurich",
-      "date": "2025-08-26",
-      "event": "EMPOWER Conference",
+      "date": "2025-08-28",
+      "event": "EMPOWER Conference 2025",
       "city": "Zurich",
       "country": "Switzerland",
       "mode": "in-person",
       "role": "Speaker",
-      "title": "AI Tools for Mortals",
       "language": "en",
-      "links": {}
+      "id": "2025-08-28-empower-conference-zurich-ai-work-tools",
+      "title": "AI Work Tools for Mortals",
+      "with": [
+        "Lucía Muñoz Salas"
+      ],
+      "links": {
+        "event": "https://empowerconference.ch",
+        "slides": "slides/2025-08-28-empower-conference-zurich-ai-work-tools.pdf"
+      },
+      "venue": "The Circle Convention Center"
+    },
+    {
+      "date": "2025-08-28",
+      "event": "EMPOWER Conference 2025",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "mode": "in-person",
+      "role": "Speaker",
+      "language": "en",
+      "id": "2025-08-28-empower-conference-zurich-fabric-cicd",
+      "title": "Deploy Your Microsoft Fabric Architecture with CI/CD in 10 Minutes",
+      "with": [
+        "Giancarllo Torres"
+      ],
+      "links": {
+        "event": "https://empowerconference.ch",
+        "slides": "slides/2025-08-28-empower-conference-zurich-fabric-cicd.pdf"
+      },
+      "venue": "The Circle Convention Center"
     },
     {
       "id": "2025-10-03-bizz-summit-madrid",
@@ -84,31 +118,111 @@
       "role": "Speaker",
       "title": "AI-Powered Multilingual Reports with Azure AI and Semantic Link Labs",
       "language": "en",
-      "links": { "slides": "slides/2025-10-03-bizz-summit-madrid.pdf" }
+      "links": {
+        "slides": "slides/2025-10-03-bizz-summit-madrid.pdf",
+        "event": "https://bizzsummit.es"
+      }
     },
     {
       "id": "2025-10-16-where-do-i-fit-barcelona",
       "date": "2025-10-16",
-      "event": "Where do I fIT: Women in Tech Conference",
+      "event": "How Do I fIT in? Women's Journeys in Tech (isolutions Tech Meetup)",
       "city": "Barcelona",
       "country": "Spain",
       "mode": "in-person",
-      "role": "Invited speaker",
-      "title": "Careers in tech",
+      "role": "Panelist",
+      "title": "Career journeys and bold moves, from first steps to leadership",
       "language": "en",
-      "links": {}
+      "links": {
+        "event": "https://www.meetup.com/isolutions-tech-meetup/events/311084031/"
+      },
+      "venue": "isolutions Barcelona"
+    },
+    {
+      "id": "2026-02-20-global-power-platform-bootcamp-barcelona",
+      "date": "2026-02-20",
+      "end_date": "2026-02-21",
+      "event": "Global Power Platform Bootcamp Barcelona 2026",
+      "venue": "Centre d'Estudis Politècnics",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Integrando Dataverse y Microsoft Fabric",
+      "language": "es",
+      "links": {
+        "event": "https://sessionize.com/global-power-platform-bootcamp-barcelona-2026",
+        "slides": "slides/2026-02-20-global-power-platform-bootcamp-barcelona.pdf"
+      }
     },
     {
       "id": "2026-03-14-agentcamp-barcelona",
       "date": "2026-03-14",
-      "event": "AgentCamp Barcelona 2026",
+      "event": "AgentCamp Barcelona 2026 (Global AI Barcelona)",
       "city": "Barcelona",
       "country": "Spain",
       "mode": "in-person",
       "role": "Speaker",
       "title": "AI in the Data Platform: Genie vs Fabric Data Agents",
       "language": "en",
-      "links": { "slides": "slides/2026-03-14-agentcamp-barcelona.pdf" }
+      "links": {
+        "slides": "slides/2026-03-14-agentcamp-barcelona.pdf",
+        "event": "https://globalai.community/e/q800ticb"
+      },
+      "venue": "Harbour.Space Institute of Technology"
+    },
+    {
+      "id": "2026-07-02-isolutions-tech-meetup-barcelona",
+      "date": "2026-07-02",
+      "event": "isolutions Tech Meetup",
+      "venue": "isolutions Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Stop prompting. Start building agents with criteria",
+      "language": "en",
+      "links": {
+        "event": "https://www.meetup.com/isolutions-tech-meetup/events/315198323/",
+        "slides": "slides/2026-07-02-isolutions-tech-meetup-barcelona.pdf"
+      },
+      "with": [
+        "Lucía Muñoz Salas"
+      ]
+    },
+    {
+      "id": "2026-08-27-empower-conference-zurich",
+      "date": "2026-08-27",
+      "event": "EMPOWER Conference 2026",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Stop Prompting, Start Building Agents with Criteria",
+      "language": "en",
+      "links": {
+        "event": "https://empowerconference.ch",
+        "slides": "slides/2026-08-27-empower-conference-zurich.pdf"
+      },
+      "with": [
+        "Lucía Muñoz Salas"
+      ],
+      "venue": "Swiss Life Arena"
+    },
+    {
+      "id": "2026-10-02-bizz-summit-madrid",
+      "date": "2026-10-02",
+      "end_date": "2026-10-03",
+      "event": "Bizz Summit 2026",
+      "city": "Madrid",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "language": "es",
+      "links": {
+        "event": "https://bizzsummit.es"
+      },
+      "venue": "U-tad, Las Rozas"
     },
     {
       "id": "2026-10-10-data-saturdays-sofia",
@@ -120,7 +234,9 @@
       "role": "Speaker",
       "title": "Fabric data agents",
       "language": "en",
-      "links": { "slides": "slides/2026-10-10-data-saturdays-sofia.pdf" }
+      "links": {
+        "slides": "slides/2026-10-10-data-saturdays-sofia.pdf"
+      }
     }
   ]
 }

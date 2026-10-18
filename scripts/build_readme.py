@@ -23,7 +23,12 @@ def when(ev):
 
 
 def place(ev):
-    return "Online" if ev.get("mode") == "online" else ", ".join(x for x in (ev.get("city"), ev.get("country")) if x)
+    if ev.get("mode") == "online":
+        return "Online"
+    venue, city = ev.get("venue"), ev.get("city")
+    if venue and city and city in venue:
+        city = None
+    return ", ".join(x for x in (venue, city, ev.get("country")) if x)
 
 
 def links(ev):
@@ -41,7 +46,8 @@ def links(ev):
 def table(rows):
     lines = ["| Date | Event | Talk | Role | Where | Links |", "|---|---|---|---|---|---|"]
     for ev in rows:
-        lines.append(f"| {when(ev)} | {ev['event']} | {ev.get('title', '')} | {ev.get('role', '')} | {place(ev)} | {links(ev)} |")
+        talk = ev.get('title', '') + (f" (with {', '.join(ev['with'])})" if ev.get('with') else '')
+        lines.append(f"| {when(ev)} | {ev['event']} | {talk} | {ev.get('role', '')} | {place(ev)} | {links(ev)} |")
     return "\n".join(lines)
 
 
