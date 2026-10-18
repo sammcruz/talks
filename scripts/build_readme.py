@@ -34,12 +34,15 @@ def place(ev):
 def links(ev):
     out = []
     l = ev.get("links", {})
+    if l.get("event"):
+        out.append(f"[Event page]({l['event']})")
     if l.get("slides"):
         out.append(f"[Slides]({l['slides']})")
+    if l.get("resources"):
+        url = l["resources"] if l["resources"].startswith("http") else data.get("resources_base", "") + l["resources"]
+        out.append(f"[Resources]({url})")
     if l.get("recording"):
         out.append(f"[Recording]({l['recording']})")
-    if l.get("event"):
-        out.append(f"[Event]({l['event']})")
     return " · ".join(out) or "–"
 
 
@@ -74,7 +77,8 @@ parts += [
     "",
     "1. Add an object to `data/events.json` (copy an existing one).",
     "2. Put the PDF in `slides/` and reference it in `links.slides`.",
-    "3. Run `python3 scripts/build_readme.py` and commit.",
+    "3. Optional: put code, notebooks or other material for the talk in `scripts/<topic>/` and reference it in `links.resources`.",
+    "4. Run `python3 scripts/build_readme.py` and commit.",
     "",
 ]
 (ROOT / "README.md").write_text("\n".join(parts), encoding="utf-8")

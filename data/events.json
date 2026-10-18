@@ -44,7 +44,7 @@
     {
       "id": "2025-06-14-summer-fest-barcelona",
       "date": "2025-06-14",
-      "event": "Summer Fest Barcelona",
+      "event": "Power BI & Fabric Summer Fest Barcelona",
       "city": "Barcelona",
       "country": "Spain",
       "mode": "in-person",
@@ -52,8 +52,10 @@
       "title": "AI-Powered Multilingual Reports with Azure AI and Semantic Link Labs",
       "language": "en",
       "links": {
-        "slides": "slides/2025-06-14-summer-fest-barcelona.pdf"
-      }
+        "slides": "slides/2025-06-14-summer-fest-barcelona.pdf",
+        "event": "https://www.meetup.com/es-es/power-bi-barcelona/events/307952497/"
+      },
+      "venue": "Centre d'Estudis Politècnics"
     },
     {
       "id": "2025-07-10-menu-degustacion-de-fabric-barcelona",
@@ -168,7 +170,8 @@
       "language": "es",
       "links": {
         "event": "https://www.meetup.com/es-es/power-bi-barcelona/events/312530682/",
-        "slides": "slides/2026-01-22-power-bi-fabric-barcelona-telecos.pdf"
+        "slides": "slides/2026-01-22-power-bi-fabric-barcelona-telecos.pdf",
+        "resources": "scripts/data-agent-evaluation/data_agent_evaluation_es.ipynb"
       }
     },
     {
@@ -265,7 +268,8 @@
       "language": "en",
       "links": {
         "event": "https://www.meetup.com/queensland-power-bi-user-group/events/315524826/",
-        "slides": "slides/2026-08-06-queensland-power-bi-fabric-user-group.pdf"
+        "slides": "slides/2026-08-06-queensland-power-bi-fabric-user-group.pdf",
+        "resources": "scripts/data-agent-evaluation/data_agent_evaluation_en.ipynb"
       }
     },
     {
@@ -308,17 +312,35 @@
       ]
     },
     {
-      "id": "2026-10-10-data-saturdays-sofia",
+      "id": "2026-10-10-data-saturday-sofia",
       "date": "2026-10-10",
-      "event": "Data Saturdays Sofia 2026",
+      "event": "Data Saturday Sofia 2026",
       "city": "Sofia",
       "country": "Bulgaria",
       "mode": "in-person",
       "role": "Speaker",
-      "title": "Fabric data agents",
+      "title": "Designing and Operationalizing Data Agents within Microsoft Fabric",
       "language": "en",
       "links": {
-        "slides": "slides/2026-10-10-data-saturdays-sofia.pdf"
+        "slides": "slides/2026-10-10-data-saturdays-sofia.pdf",
+        "event": "https://datasaturday.eu/DataSaturdaySofia/#schedule",
+        "resources": "scripts/data-agent-evaluation/data_agent_evaluation_en.ipynb"
+      },
+      "venue": "Sofia Tech Park, Room 3 (10:30, 60 min)"
+    },
+    {
+      "id": "2026-10-10-data-saturday-sofia-panel",
+      "date": "2026-10-10",
+      "event": "Data Saturday Sofia 2026",
+      "venue": "Sofia Tech Park, Room 3 (10:00, 30 min)",
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "mode": "in-person",
+      "role": "Panelist",
+      "title": "From Data to AI: What Actually Works? [Panel]",
+      "language": "en",
+      "links": {
+        "event": "https://datasaturday.eu/DataSaturdaySofia/#schedule"
       }
     },
     {
@@ -336,5 +358,6 @@
         "event": "https://www.sfscon.it/talks/who-owns-your-ai-data-pipeline/"
       }
     }
-  ]
+  ],
+  "resources_base": "https://github.com/sammcruz/talks/blob/main/"
 }
