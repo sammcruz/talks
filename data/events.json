@@ -139,6 +139,38 @@
       "venue": "isolutions Barcelona"
     },
     {
+      "id": "2025-11-13-global-ai-zurich",
+      "date": "2025-11-13",
+      "event": "Global AI Zürich: November AI & Data special",
+      "venue": "isolutions AG, The Circle",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Leveraging Databricks Genie for Real Business Impact",
+      "language": "en",
+      "links": {
+        "event": "https://www.meetup.com/es-es/global-ai-zurich/events/311548769/",
+        "slides": "slides/2025-11-13-global-ai-zurich.pdf"
+      }
+    },
+    {
+      "id": "2026-01-22-power-bi-fabric-barcelona-telecos",
+      "date": "2026-01-22",
+      "event": "Power BI & Fabric Barcelona a Telecos!",
+      "venue": "Sala Ágora, Edifici B3 (UPC Telecos)",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Designing and Operationalizing Data Agents with Microsoft Fabric",
+      "language": "es",
+      "links": {
+        "event": "https://www.meetup.com/es-es/power-bi-barcelona/events/312530682/",
+        "slides": "slides/2026-01-22-power-bi-fabric-barcelona-telecos.pdf"
+      }
+    },
+    {
       "id": "2026-02-20-global-power-platform-bootcamp-barcelona",
       "date": "2026-02-20",
       "end_date": "2026-02-21",
@@ -191,6 +223,36 @@
       ]
     },
     {
+      "id": "2026-07-22-microsoft-speakers-hub-en-espanol",
+      "date": "2026-07-22",
+      "event": "Microsoft Speakers Hub en Español",
+      "city": "Online",
+      "country": "",
+      "mode": "online",
+      "role": "Speaker",
+      "title": "De Fabric a Azure DevOps: agentes que leen, escriben y documentan",
+      "language": "es",
+      "links": {
+        "event": "https://www.meetup.com/es-es/microsoft-speakers-hub-en-espanol/events/315691268/",
+        "slides": "slides/2026-07-22-microsoft-speakers-hub-en-espanol.pdf"
+      }
+    },
+    {
+      "id": "2026-08-06-queensland-power-bi-fabric-user-group",
+      "date": "2026-08-06",
+      "event": "Queensland Power BI and Fabric User Group",
+      "city": "Online",
+      "country": "",
+      "mode": "online",
+      "role": "Speaker",
+      "title": "Data Agents in Microsoft Fabric",
+      "language": "en",
+      "links": {
+        "event": "https://www.meetup.com/queensland-power-bi-user-group/events/315524826/",
+        "slides": "slides/2026-08-06-queensland-power-bi-fabric-user-group.pdf"
+      }
+    },
+    {
       "id": "2026-08-27-empower-conference-zurich",
       "date": "2026-08-27",
       "event": "EMPOWER Conference 2026",
@@ -222,7 +284,11 @@
       "links": {
         "event": "https://bizzsummit.es"
       },
-      "venue": "U-tad, Las Rozas"
+      "venue": "U-tad, Las Rozas",
+      "title": "Agentes de IA para meros mortales",
+      "with": [
+        "Lucía Muñoz Salas"
+      ]
     },
     {
       "id": "2026-10-10-data-saturdays-sofia",
@@ -236,6 +302,21 @@
       "language": "en",
       "links": {
         "slides": "slides/2026-10-10-data-saturdays-sofia.pdf"
+      }
+    },
+    {
+      "id": "2026-11-13-sfscon-bolzano",
+      "date": "2026-11-13",
+      "event": "SFSCON 2026",
+      "venue": "NOI Techpark, Seminar 2 (13:20, 15 min)",
+      "city": "Bolzano/Bozen",
+      "country": "Italy",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Who Owns Your AI Data Pipeline?",
+      "language": "en",
+      "links": {
+        "event": "https://www.sfscon.it/talks/who-owns-your-ai-data-pipeline/"
       }
     }
   ]

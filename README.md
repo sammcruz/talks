@@ -4,16 +4,26 @@ Talks, workshops and training by [Samantha Cruz](https://github.com/sammcruz), D
 
 Slides are in [`slides/`](slides) as PDF, named `YYYY-MM-DD-event.pdf`. The single source of truth is [`data/events.json`](data/events.json); this README and my website are generated from it.
 
+## Upcoming
+
+| Date | Event | Talk | Role | Where | Links |
+|---|---|---|---|---|---|
+| 13 Nov 2026 | SFSCON 2026 | Who Owns Your AI Data Pipeline? | Speaker | NOI Techpark, Seminar 2 (13:20, 15 min), Bolzano/Bozen, Italy | [Event](https://www.sfscon.it/talks/who-owns-your-ai-data-pipeline/) |
+
 ## Past events
 
 | Date | Event | Talk | Role | Where | Links |
 |---|---|---|---|---|---|
 | 10 Oct 2026 | Data Saturdays Sofia 2026 | Fabric data agents | Speaker | Sofia, Bulgaria | [Slides](slides/2026-10-10-data-saturdays-sofia.pdf) |
-| 2–3 Oct 2026 | Bizz Summit 2026 |  | Speaker | U-tad, Las Rozas, Madrid, Spain | [Event](https://bizzsummit.es) |
+| 2–3 Oct 2026 | Bizz Summit 2026 | Agentes de IA para meros mortales (with Lucía Muñoz Salas) | Speaker | U-tad, Las Rozas, Madrid, Spain | [Event](https://bizzsummit.es) |
 | 27 Aug 2026 | EMPOWER Conference 2026 | Stop Prompting, Start Building Agents with Criteria (with Lucía Muñoz Salas) | Speaker | Swiss Life Arena, Zurich, Switzerland | [Slides](slides/2026-08-27-empower-conference-zurich.pdf) · [Event](https://empowerconference.ch) |
+| 6 Aug 2026 | Queensland Power BI and Fabric User Group | Data Agents in Microsoft Fabric | Speaker | Online | [Slides](slides/2026-08-06-queensland-power-bi-fabric-user-group.pdf) · [Event](https://www.meetup.com/queensland-power-bi-user-group/events/315524826/) |
+| 22 Jul 2026 | Microsoft Speakers Hub en Español | De Fabric a Azure DevOps: agentes que leen, escriben y documentan | Speaker | Online | [Slides](slides/2026-07-22-microsoft-speakers-hub-en-espanol.pdf) · [Event](https://www.meetup.com/es-es/microsoft-speakers-hub-en-espanol/events/315691268/) |
 | 2 Jul 2026 | isolutions Tech Meetup | Stop prompting. Start building agents with criteria (with Lucía Muñoz Salas) | Speaker | isolutions Barcelona, Spain | [Slides](slides/2026-07-02-isolutions-tech-meetup-barcelona.pdf) · [Event](https://www.meetup.com/isolutions-tech-meetup/events/315198323/) |
 | 14 Mar 2026 | AgentCamp Barcelona 2026 (Global AI Barcelona) | AI in the Data Platform: Genie vs Fabric Data Agents | Speaker | Harbour.Space Institute of Technology, Barcelona, Spain | [Slides](slides/2026-03-14-agentcamp-barcelona.pdf) · [Event](https://globalai.community/e/q800ticb) |
 | 20–21 Feb 2026 | Global Power Platform Bootcamp Barcelona 2026 | Integrando Dataverse y Microsoft Fabric | Speaker | Centre d'Estudis Politècnics, Barcelona, Spain | [Slides](slides/2026-02-20-global-power-platform-bootcamp-barcelona.pdf) · [Event](https://sessionize.com/global-power-platform-bootcamp-barcelona-2026) |
+| 22 Jan 2026 | Power BI & Fabric Barcelona a Telecos! | Designing and Operationalizing Data Agents with Microsoft Fabric | Speaker | Sala Ágora, Edifici B3 (UPC Telecos), Barcelona, Spain | [Slides](slides/2026-01-22-power-bi-fabric-barcelona-telecos.pdf) · [Event](https://www.meetup.com/es-es/power-bi-barcelona/events/312530682/) |
+| 13 Nov 2025 | Global AI Zürich: November AI & Data special | Leveraging Databricks Genie for Real Business Impact | Speaker | isolutions AG, The Circle, Zurich, Switzerland | [Slides](slides/2025-11-13-global-ai-zurich.pdf) · [Event](https://www.meetup.com/es-es/global-ai-zurich/events/311548769/) |
 | 16 Oct 2025 | How Do I fIT in? Women's Journeys in Tech (isolutions Tech Meetup) | Career journeys and bold moves, from first steps to leadership | Panelist | isolutions Barcelona, Spain | [Event](https://www.meetup.com/isolutions-tech-meetup/events/311084031/) |
 | 3–4 Oct 2025 | Bizz Summit 2025 | AI-Powered Multilingual Reports with Azure AI and Semantic Link Labs | Speaker | Madrid, Spain | [Slides](slides/2025-10-03-bizz-summit-madrid.pdf) · [Event](https://bizzsummit.es) |
 | 28 Aug 2025 | EMPOWER Conference 2025 | AI Work Tools for Mortals (with Lucía Muñoz Salas) | Speaker | The Circle Convention Center, Zurich, Switzerland | [Slides](slides/2025-08-28-empower-conference-zurich-ai-work-tools.pdf) · [Event](https://empowerconference.ch) |
