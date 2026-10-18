@@ -1,0 +1,126 @@
+{
+  "slides_base": "https://github.com/sammcruz/talks/blob/main/",
+  "events": [
+    {
+      "id": "2024-10-17-databricks-data-intelligence-day-mexico-city",
+      "date": "2024-10-17",
+      "event": "Databricks Data Intelligence Day",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "mode": "in-person",
+      "role": "Instructor",
+      "title": "Generative AI Fundamentals",
+      "language": "en",
+      "links": {}
+    },
+    {
+      "id": "2025-04-10-isolutions-tech-meetup-barcelona",
+      "date": "2025-04-10",
+      "event": "isolutions Tech Meetup",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Generative AI Solution Development with Databricks",
+      "language": "en",
+      "links": {}
+    },
+    {
+      "id": "2025-05-08-global-azure-barcelona",
+      "date": "2025-05-08",
+      "event": "Global Azure Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Deploy Your Microsoft Fabric Architecture with CI/CD in 10 Minutes",
+      "language": "en",
+      "links": {}
+    },
+    {
+      "id": "2025-06-14-summer-fest-barcelona",
+      "date": "2025-06-14",
+      "event": "Summer Fest Barcelona",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "AI-Powered Multilingual Reports with Azure AI and Semantic Link Labs",
+      "language": "en",
+      "links": { "slides": "slides/2025-06-14-summer-fest-barcelona.pdf" }
+    },
+    {
+      "id": "2025-07-10-menu-degustacion-de-fabric-barcelona",
+      "date": "2025-07-10",
+      "event": "Menú degustación de Fabric",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Gobernanza de Datos en Fabric: Lineage de Datos con Purview",
+      "language": "es",
+      "links": {}
+    },
+    {
+      "id": "2025-08-26-empower-conference-zurich",
+      "date": "2025-08-26",
+      "event": "EMPOWER Conference",
+      "city": "Zurich",
+      "country": "Switzerland",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "AI Tools for Mortals",
+      "language": "en",
+      "links": {}
+    },
+    {
+      "id": "2025-10-03-bizz-summit-madrid",
+      "date": "2025-10-03",
+      "end_date": "2025-10-04",
+      "event": "Bizz Summit 2025",
+      "city": "Madrid",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "AI-Powered Multilingual Reports with Azure AI and Semantic Link Labs",
+      "language": "en",
+      "links": { "slides": "slides/2025-10-03-bizz-summit-madrid.pdf" }
+    },
+    {
+      "id": "2025-10-16-where-do-i-fit-barcelona",
+      "date": "2025-10-16",
+      "event": "Where do I fIT: Women in Tech Conference",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Invited speaker",
+      "title": "Careers in tech",
+      "language": "en",
+      "links": {}
+    },
+    {
+      "id": "2026-03-14-agentcamp-barcelona",
+      "date": "2026-03-14",
+      "event": "AgentCamp Barcelona 2026",
+      "city": "Barcelona",
+      "country": "Spain",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "AI in the Data Platform: Genie vs Fabric Data Agents",
+      "language": "en",
+      "links": { "slides": "slides/2026-03-14-agentcamp-barcelona.pdf" }
+    },
+    {
+      "id": "2026-10-10-data-saturdays-sofia",
+      "date": "2026-10-10",
+      "event": "Data Saturdays Sofia 2026",
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "mode": "in-person",
+      "role": "Speaker",
+      "title": "Fabric data agents",
+      "language": "en",
+      "links": { "slides": "slides/2026-10-10-data-saturdays-sofia.pdf" }
+    }
+  ]
+}
