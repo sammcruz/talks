@@ -24,7 +24,8 @@
       "title": "Generative AI Solution Development with Databricks",
       "language": "en",
       "links": {
-        "event": "https://www.meetup.com/isolutions-tech-meetup/events/306895509/"
+        "event": "https://www.meetup.com/isolutions-tech-meetup/events/306895509/",
+        "slides": "slides/2025-04-10-isolutions-tech-meetup-barcelona.pdf"
       },
       "venue": "isolutions Barcelona"
     },
@@ -204,6 +205,21 @@
       "venue": "Harbour.Space Institute of Technology"
     },
     {
+      "id": "2026-05-09-ai-community-days-tunis",
+      "date": "2026-05-09",
+      "event": "AI Community Days Tunis 2026 (AICD)",
+      "venue": "Leaders University",
+      "city": "Tunis",
+      "country": "Tunisia",
+      "role": "Speaker",
+      "title": "How Much Does a Prompt Cost?",
+      "language": "en",
+      "links": {
+        "event": "https://sessionize.com/aicd-tunis-2026",
+        "slides": "slides/2026-05-09-ai-community-days-tunis.pdf"
+      }
+    },
+    {
       "id": "2026-07-02-isolutions-tech-meetup-barcelona",
       "date": "2026-07-02",
       "event": "isolutions Tech Meetup",
@@ -282,7 +298,8 @@
       "role": "Speaker",
       "language": "es",
       "links": {
-        "event": "https://bizzsummit.es"
+        "event": "https://bizzsummit.es",
+        "slides": "slides/2026-10-02-bizz-summit-madrid.pdf"
       },
       "venue": "U-tad, Las Rozas",
       "title": "Agentes de IA para meros mortales",
