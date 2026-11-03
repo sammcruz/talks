@@ -362,6 +362,21 @@
       "links": {
         "event": "https://www.sfscon.it/talks/who-owns-your-ai-data-pipeline/"
       }
+    },
+    {
+      "id": "2026-12-11-christmas-power-data-platform",
+      "date": "2026-12-11",
+      "end_date": "2026-12-12",
+      "event": "Christmas Power Data Platform 2026",
+      "city": "Online",
+      "country": "",
+      "mode": "online",
+      "role": "Speaker",
+      "title": "Desarrolla en Fabric con agentes de IA usando Fabric CLI y Fabric Notebook Toolkit",
+      "language": "es",
+      "links": {
+        "event": "https://christmaspowerdataplatform.com/"
+      }
     }
   ],
   "resources_base": "https://github.com/sammcruz/talks/blob/main/"
