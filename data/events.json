@@ -350,6 +350,7 @@
     },
     {
       "id": "2026-11-13-sfscon-bolzano",
+      "past": true,
       "date": "2026-11-13",
       "event": "SFSCON 2026",
       "venue": "NOI Techpark, Seminar 2 (13:20, 15 min)",
@@ -366,6 +367,7 @@
     },
     {
       "id": "2026-11-13-sfscon-bolzano-panel",
+      "past": true,
       "date": "2026-11-13",
       "event": "SFSCON 2026",
       "venue": "NOI Techpark, Seminar 2 (14:40, 35 min)",

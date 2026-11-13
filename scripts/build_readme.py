@@ -54,8 +54,13 @@ def table(rows):
     return "\n".join(lines)
 
 
-upcoming = sorted([e for e in events if (e.get("end_date") or e["date"]) >= today], key=lambda e: e["date"])
-past = sorted([e for e in events if (e.get("end_date") or e["date"]) < today], key=lambda e: e["date"], reverse=True)
+def is_past(e):
+    # "past": true moves an event to Past before its date has rolled over.
+    return bool(e.get("past")) or (e.get("end_date") or e["date"]) < today
+
+
+upcoming = sorted([e for e in events if not is_past(e)], key=lambda e: e["date"])
+past = sorted([e for e in events if is_past(e)], key=lambda e: e["date"], reverse=True)
 
 parts = [
     "# Talks",
@@ -78,7 +83,8 @@ parts += [
     "1. Add an object to `data/events.json` (copy an existing one).",
     "2. Put the PDF in `slides/` and reference it in `links.slides`.",
     "3. Optional: put code, notebooks or other material for the talk in `scripts/<topic>/` and reference it in `links.resources`.",
-    "4. Run `python3 scripts/build_readme.py` and commit.",
+    "4. Optional: add `\"past\": true` to move an event to Past before its date has rolled over (for example right after a talk).",
+    "5. Run `python3 scripts/build_readme.py` and commit.",
     "",
 ]
 (ROOT / "README.md").write_text("\n".join(parts), encoding="utf-8")
