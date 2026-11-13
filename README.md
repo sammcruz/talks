@@ -9,6 +9,7 @@ Slides are in [`slides/`](slides) as PDF, named `YYYY-MM-DD-event.pdf`. The sing
 | Date | Event | Talk | Role | Where | Links |
 |---|---|---|---|---|---|
 | 13 Nov 2026 | SFSCON 2026 | Who Owns Your AI Data Pipeline? | Speaker | NOI Techpark, Seminar 2 (13:20, 15 min), Bolzano/Bozen, Italy | [Event page](https://www.sfscon.it/talks/who-owns-your-ai-data-pipeline/) · [Slides](slides/2026-11-13-sfscon-bolzano.pdf) |
+| 13 Nov 2026 | SFSCON 2026 | Who answers when AI goes wrong? [Panel] | Panelist | NOI Techpark, Seminar 2 (14:40, 35 min), Bolzano/Bozen, Italy | [Event page](https://www.sfscon.it/talks/who-answers-when-ai-goes-wrong/) |
 | 11–12 Dec 2026 | Christmas Power Data Platform 2026 | Desarrolla en Fabric con agentes de IA usando Fabric CLI y Fabric Notebook Toolkit | Speaker | Online | [Event page](https://christmaspowerdataplatform.com/) |
 
 ## Past events
