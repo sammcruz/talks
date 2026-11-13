@@ -8,14 +8,14 @@ Slides are in [`slides/`](slides) as PDF, named `YYYY-MM-DD-event.pdf`. The sing
 
 | Date | Event | Talk | Role | Where | Links |
 |---|---|---|---|---|---|
-| 13 Nov 2026 | SFSCON 2026 | Who Owns Your AI Data Pipeline? | Speaker | NOI Techpark, Seminar 2 (13:20, 15 min), Bolzano/Bozen, Italy | [Event page](https://www.sfscon.it/talks/who-owns-your-ai-data-pipeline/) · [Slides](slides/2026-11-13-sfscon-bolzano.pdf) |
-| 13 Nov 2026 | SFSCON 2026 | Who answers when AI goes wrong? [Panel] | Panelist | NOI Techpark, Seminar 2 (14:40, 35 min), Bolzano/Bozen, Italy | [Event page](https://www.sfscon.it/talks/who-answers-when-ai-goes-wrong/) |
 | 11–12 Dec 2026 | Christmas Power Data Platform 2026 | Desarrolla en Fabric con agentes de IA usando Fabric CLI y Fabric Notebook Toolkit | Speaker | Online | [Event page](https://christmaspowerdataplatform.com/) |
 
 ## Past events
 
 | Date | Event | Talk | Role | Where | Links |
 |---|---|---|---|---|---|
+| 13 Nov 2026 | SFSCON 2026 | Who Owns Your AI Data Pipeline? | Speaker | NOI Techpark, Seminar 2 (13:20, 15 min), Bolzano/Bozen, Italy | [Event page](https://www.sfscon.it/talks/who-owns-your-ai-data-pipeline/) · [Slides](slides/2026-11-13-sfscon-bolzano.pdf) |
+| 13 Nov 2026 | SFSCON 2026 | Who answers when AI goes wrong? [Panel] | Panelist | NOI Techpark, Seminar 2 (14:40, 35 min), Bolzano/Bozen, Italy | [Event page](https://www.sfscon.it/talks/who-answers-when-ai-goes-wrong/) |
 | 10 Oct 2026 | Data Saturday Sofia 2026 | Designing and Operationalizing Data Agents within Microsoft Fabric | Speaker | Sofia Tech Park, Room 3 (10:30, 60 min), Bulgaria | [Event page](https://datasaturday.eu/DataSaturdaySofia/#schedule) · [Slides](slides/2026-10-10-data-saturdays-sofia.pdf) · [Resources](https://github.com/sammcruz/talks/blob/main/scripts/data-agent-evaluation/data_agent_evaluation_en.ipynb) |
 | 10 Oct 2026 | Data Saturday Sofia 2026 | From Data to AI: What Actually Works? [Panel] | Panelist | Sofia Tech Park, Room 3 (10:00, 30 min), Bulgaria | [Event page](https://datasaturday.eu/DataSaturdaySofia/#schedule) |
 | 2–3 Oct 2026 | Bizz Summit 2026 | Agentes de IA para meros mortales (with Lucía Muñoz Salas) | Speaker | U-tad, Las Rozas, Madrid, Spain | [Event page](https://bizzsummit.es) · [Slides](slides/2026-10-02-bizz-summit-madrid.pdf) |
@@ -47,4 +47,5 @@ Slides are shared for learning. Please credit the author when you reuse parts of
 1. Add an object to `data/events.json` (copy an existing one).
 2. Put the PDF in `slides/` and reference it in `links.slides`.
 3. Optional: put code, notebooks or other material for the talk in `scripts/<topic>/` and reference it in `links.resources`.
-4. Run `python3 scripts/build_readme.py` and commit.
+4. Optional: add `"past": true` to move an event to Past before its date has rolled over (for example right after a talk).
+5. Run `python3 scripts/build_readme.py` and commit.
