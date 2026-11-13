@@ -37,7 +37,9 @@ def links(ev):
     if l.get("event"):
         out.append(f"[Event page]({l['event']})")
     if l.get("slides"):
-        out.append(f"[Slides]({l['slides']})")
+        # slides_base is served by GitHub Pages, so the PDF opens in the browser instead of downloading.
+        url = l["slides"] if l["slides"].startswith("http") else data.get("slides_base", "") + l["slides"]
+        out.append(f"[Slides]({url})")
     if l.get("resources"):
         url = l["resources"] if l["resources"].startswith("http") else data.get("resources_base", "") + l["resources"]
         out.append(f"[Resources]({url})")
